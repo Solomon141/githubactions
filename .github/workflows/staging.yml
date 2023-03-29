@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: denjoyd/FTP-Deploy-Action@v4.3.4
       with:
-        server: zombie.denjoyd.com
+        server: ftp.zombie.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/staging.denjoyd.com/
